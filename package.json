@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "test": "jest --watch"
   },
   "author": "",
   "license": "ISC",
@@ -12,13 +13,24 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
+    "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
+    "babel-plugin-react-remove-properties": "^0.3.0",
     "html-webpack-plugin": "^4.5.1",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^17.0.1",
     "webpack": "^5.16.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^26.0.20",
+    "check-prop-types": "^1.1.2",
+    "enzyme": "^3.11.0",
+    "jest-enzyme": "^7.1.2",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
